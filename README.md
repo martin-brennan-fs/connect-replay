@@ -13,7 +13,7 @@ To run this app, you need the following in your AppSettings:
 **ConnectPrefix** - The prefix to look under in the bucket for the connect XML logs e.g. connect/.
 
 ## Running
-You can either provide an exact filename for the connect log, which will be found in the location <bucket>/<connectprefix>/<filename> e.g.
+You can either provide an exact filename for the connect log, which will be found in the location `bucket/connectprefix/filename` e.g.
 
 ```
 81e23161-7691-4550-a92b-64829b2a006d.xml
