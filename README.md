@@ -7,7 +7,9 @@ Replays DocuSign Connect XML messages from S3 to the specified endpoint.
 To run this app, you need the following in your AppSettings:
 
 **Endpoint** - The URL to post the connect XML to.
+
 **Bucket** - The S3 bucket name to look in for the XML logs.
+
 **ConnectPrefix** - The prefix to look under in the bucket for the connect XML logs e.g. connect/.
 
 ## Running
